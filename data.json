@@ -1,0 +1,107 @@
+{
+    "descrption":"Data about all the fun stuff.",
+    "funstuff": [
+
+        {
+            "Date":"Taco" ,
+            "Things":"Why not have some tasty tacos for your beautiful day ?",
+            "Image":"Assets/JIMG/TACO.png",
+            "Links":"https://www.tacobell.com/food"
+        },
+
+        {
+            "Date":"Wings" ,
+            "Things": "I love chicken wings, and bufallo is my favourite, what about you ?",
+            "Image":"Assets/JIMG/wings.png",
+            "Links":"https://www.buffalowildwings.com/en/food/"
+
+        },
+
+        {
+            "Date":"GoodBoy",
+            "Things":"It's GoodBoy Day, take some pics of your cute poppy, if you don't have one, find some on Instagram, they are soo cute~",
+            "Image":"Assets/JIMG/goodboy.png",
+            "Links":"https://dogtime.com/puppies"
+        },
+
+        {
+            "Date":"Throwback",
+            "Things":"Now all the bad stuff are slushed, why not layback and live in your wonderful memomries!",
+            "Image":"Assets/JIMG/throwback.png",
+            "Links":"https://www.instagram.com"
+        },
+
+        {
+            "Date":"FunnyTinder",
+            "Things":"I know, right? But people are actually really funny on Tinder, you're goona have fun.",
+            "Image":"Assets/JIMG/tinder.png",
+            "Links":"https://www.instagram.com/p/CUX4WJlpla7/?utm_medium=copy_link"
+        },
+
+        {
+            "Date":"MewMew",
+            "Things":"Is there anything better than cat? Nah",
+            "Image":"Assets/JIMG/mewmew.png",
+            "Links":"https://www.youtube.com/channel/UCWoqASNf9byEBpuhsvPfz3w"
+        },
+
+        {
+            "Date":"Drinking",
+            "Things":"Beer or Wihisky ? I am going for a shotgun rightnow.(only if you're 21 or older)" ,
+            "Image":"Assets/JIMG/drinking.png",
+            "Links":"https://www.coronausa.com/pages/buy-online"
+        },
+
+        {
+            "Date":"Fornite",
+            "Things":"Hey, it's game day! Show your little brother how good you are!",
+            "Image":"Assets/JIMG/fortnite.png",
+            "Links":"https://www.epicgames.com/fortnite/en-US/download"
+        },
+
+        {
+            "Date":"Netflix",
+            "Things":"Get your snack ready, Squid Game is a great show!",
+            "Image":"Assets/JIMG/Netflix.png",
+            "Links":"https://www.netflix.com/title/81040344"
+        },
+
+        {
+            "Date":"CrazyShopping",
+            "Things":"Who says money can't buy happiness? Prove them wrong ~",
+            "Image":"Assets/JIMG/shopping.png",
+            "Links":"https://www.amazon.com"
+
+        },
+
+        {
+            "Date":"IceCreamFiesta",
+            "Things":"No one gonna say no to surgar, don't eat too much though.",
+            "Image":"Assets/JIMG/icecream.png",
+            "Links":"https://creamery.psu.edu/"
+        },
+
+        {
+            "Date":"Donuts",
+            "Things":"One donuts a day, keep the unhappiness away!",
+            "Image":"Assets/JIMG/donuts.png",
+            "Links":"https://www.dunkindonuts.com/en"
+        },
+
+        {
+            "Date":"JustDance",
+            "Things":"What are you waiting for? Come on Come on turn the radio on",
+            "Image":"Assets/JIMG/dancing.png",
+            "Links":"https://justdancenow.com/"
+
+        },
+
+        {
+            "Date":"SuperChill",
+            "Things":"Wine,Candle,Bathtub and some chill Low-Fi beats, just relax~ ",
+            "Image":"Assets/JIMG/chill.png",
+            "Links":"https://www.youtube.com/watch?v=VfW86fnQL5w"
+        }
+
+    ]
+}
