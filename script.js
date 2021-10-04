@@ -10,18 +10,17 @@ fetch("data.json")
         let randomNumer = Math.floor(Math.random() * funArray.length);
         let dateElement = document.getElementById('Date-name');
         let funElement = document.getElementById('should');
-        // let imageLink = data.Links;
         let imageElement = document.getElementById('f-img');
         // let linkElement = document.getElementById('f-link');
-      
-
+        let alink = data.Links;
+        let aElement = document.getElementById('f-link')
       
 
         imageElement.src = funArray[randomNumer].Image;
         dateElement.innerHTML = funArray[randomNumer].Date;
         funElement.innerHTML = funArray[randomNumer].Things;
-        // console.log(data.funstuff[0].Date.Things);
-        // linkElement.innerHTML ="href="+ funArray[randomNumer].Links;
+        aElement.href = funArray[randomNumer].Links;
+        // linkElement.href = funArray[randomNumer].Links;
         console.log(data.funstuff[0].Links)
         
     })
