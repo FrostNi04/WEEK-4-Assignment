@@ -2,6 +2,8 @@ window.addEventListener('load', function () {
     console.log('Page is loded');
 })
 
+
+//get elements out of JSON
 fetch("data.json")
     .then(response => response.json())
     .then(data => {
@@ -11,7 +13,6 @@ fetch("data.json")
         let dateElement = document.getElementById('Date-name');
         let funElement = document.getElementById('should');
         let imageElement = document.getElementById('f-img');
-        // let linkElement = document.getElementById('f-link');
         let alink = data.Links;
         let aElement = document.getElementById('f-link')
       
@@ -20,7 +21,6 @@ fetch("data.json")
         dateElement.innerHTML = funArray[randomNumer].Date;
         funElement.innerHTML = funArray[randomNumer].Things;
         aElement.href = funArray[randomNumer].Links;
-        // linkElement.href = funArray[randomNumer].Links;
         console.log(data.funstuff[0].Links)
         
     })
@@ -141,9 +141,7 @@ function draw() {
 
 
 
-    //the best way to organize sprites is to use a custom group (see Group class)
-    //however, all sprites are automatically added to a default group allSprites
-    //that you can access like a normal array of objects
+    //Sprites
 
     for (let i = 0; i < allSprites.length; i++) {
         let mySprite = allSprites[i];
