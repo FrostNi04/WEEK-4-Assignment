@@ -92,7 +92,7 @@ function setup() {
     bgw = loadImage('Assets/IMG/wall.png');
 
     //create inputbox
-    let inp = createInput('');
+    let inp = createInput('WriteDown Unhappiness');
     inp.parent('p5-input');
     inp.position(-670, -50);
     inp.size(140, 140);
